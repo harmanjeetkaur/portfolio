@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <title><%= title %></title>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
 </head>
 <body>
 
 
-<nav class="navbar navbar-light navbar-expand-lg">
+<!-- retrieved from http://freefrontend.com/css-menu/#horizontal-menu -->
+<nav class="slidemenu">
 
-    <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="/project">Project</a></li>
-        <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-    </ul>
+    <!-- Item 1 -->
+    <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+    <label for="slide-item-1"><p class="icon">★</p><span>Home</span></label>
+
+    <!-- Item 2 -->
+    <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+    <label for="slide-item-2"><p class="icon">✎</p><span>About</span></label>
+
+    <!-- Item 3 -->
+    <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+    <label for="slide-item-3"><p class="icon"></p><span>Project</span></label>
+
+    <!-- Item 4 -->
+    <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+    <label for="slide-item-4"><p class="icon"></p><span>Services</span></label>
+
+
+
+    <div class="clear"></div>
+
+    <!-- Bar -->
+    <div class="slider">
+        <div class="bar"></div>
+    </div>
+
 </nav>
 
 </body>
