@@ -3,8 +3,8 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'My portfolio',
-                        message: 'Harmanjeet Kaur'});
+  res.render('index', { title: '',
+                        message: ''});
 });
 
 //GET: /About
