@@ -1,3 +1,9 @@
+/*Author name: Harmanjeet Kaur
+File name: style.css
+website: Harman-porfolio
+Description: style sheet of every page
+*/
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -143,12 +149,17 @@ a {
 
 }
 
-<!-- footer css -->
+/* footer css */
 #foot1
 {
     background-color:#253130;
     height:25%;
     padding-left:18%;
     padding-top:5%;
+    margin-top: 5%;
     height:20%;
+}
+
+.contactbody{
+    text-align: center;
 }
