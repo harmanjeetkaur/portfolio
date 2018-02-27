@@ -1,8 +1,11 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #cce5ff;
 
 }
+
+
 
 a {
   color: #00B7FF;
@@ -99,3 +102,52 @@ a {
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+
+
+.indexh1{
+    text-align: center;
+}
+
+.img2{
+    border-radius:50%;
+}
+
+.info, .img2, .img-with-text{
+    display: inline-block;
+    color:#117a8b;
+}
+
+.one{
+    text-align: center;
+}
+
+#aboutpics1, #aboutpics2{
+    text-align: center;
+}
+
+.img-with-text {
+    text-align: justify;
+
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+#aboutpage p{
+    text-align: center;
+    padding:20px;
+    font-size: x-large;
+
+}
+
+<!-- footer css -->
+#foot1
+{
+    background-color:#253130;
+    height:25%;
+    padding-left:18%;
+    padding-top:5%;
+    height:20%;
+}

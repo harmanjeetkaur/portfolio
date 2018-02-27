@@ -5,39 +5,41 @@
     <title><%= title %></title>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
     <link rel="stylesheet" href="/stylesheets/style.css"/>
+
+    <nav class="slidemenu">
+
+        <!-- Item 1 -->
+        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+        <label for="slide-item-1"><a class="icon" href="/">★</a><span>Home</span></label>
+
+        <!-- Item 2 -->
+        <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+        <label for="slide-item-2"><a class="icon" href="/about">✎</a><span>About</span></label>
+
+        <!-- Item 3 -->
+        <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+        <label for="slide-item-3"><a class="icon" href="/project"></a><span>Project</span></label>
+
+        <!-- Item 4 -->
+        <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+        <label for="slide-item-4"><a class="icon" href="/services"></a><span>Services</span></label>
+
+
+
+        <div class="clear"></div>
+
+        <!-- Bar -->
+        <div class="slider">
+            <div class="bar"></div>
+        </div>
+
+    </nav>
 </head>
 <body>
 
 
 <!-- retrieved from http://freefrontend.com/css-menu/#horizontal-menu -->
-<nav class="slidemenu">
 
-    <!-- Item 1 -->
-    <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-    <label for="slide-item-1"><p class="icon">★</p><span>Home</span></label>
-
-    <!-- Item 2 -->
-    <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-    <label for="slide-item-2"><p class="icon">✎</p><span>About</span></label>
-
-    <!-- Item 3 -->
-    <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-    <label for="slide-item-3"><p class="icon"></p><span>Project</span></label>
-
-    <!-- Item 4 -->
-    <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-    <label for="slide-item-4"><p class="icon"></p><span>Services</span></label>
-
-
-
-    <div class="clear"></div>
-
-    <!-- Bar -->
-    <div class="slider">
-        <div class="bar"></div>
-    </div>
-
-</nav>
 
 </body>
 </html>
