@@ -102,6 +102,7 @@ a {
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-5:checked ~ .slider .bar{ margin-left: 100%; }
 
 
 .indexh1{

@@ -42,4 +42,12 @@ router.get('/contact', (req, res, next)=> {
         message:''
     });
 });
+
+router.get('/contact', (req, res, next)=> {
+    //load the about view
+    res.render('contact', {
+        title: '',
+        message:''
+    });
+});
 module.exports = router;
